@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
+/* universal styles */
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* global styles */
+
+.centerme {
+	text-align: center;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/* page styles */
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	display: table;
+	content:" ";
+	clear: both;
+}
+
+body {
+	background: rgba(72, 126, 142, .8);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+header,
+nav, 
+section,
+footer {
+	background: rgba(255,255,255,0.5);
+	border: solid 2px rgba(0,0,0,0.8);
+	padding: 10px 15px;
+	margin-bottom: 20px;
+}
+
+h1, 
+h2,
+p {
+	margin-bottom: 10px;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 15px;
+	padding: 10px;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 2%;
+}
+
+nav a:link,
+nav a:visited  {
+	color: black;
+}
+
+nav a:hover,
+nav a:active  {
+	color: white;
+	background: black;
+}
+
+.twocolumn section {
+	width: 49%;
+}
+.threecolumn section {
+	width: 32%;
+	float: left;
+	margin-right: 2%;
+}
+
+.threecolumn section:nth-of-type(3n) {
+	margin-right: 0;
+}
+figure {
+	width: 60%;
+}
+
+figure img{
+	margin: 0 2%;
+	width: 100%;
+}
+
+/*mobile media block*/
+@media only screen and (max-width: 677px){
+	
+	.twocolumn section {
+		float: none;
+		width: 90%;
+		margin: 5%;
+	}
+	.threecolumn section{
+		float: none;
+		width: 90%;
+		margin: 5%;
+
+
+		
+	}
+
+	nav {
+		padding: 0;
+		width: 90%;
+		margin: 5%;
+	}
+
+	nav a{
+		display: block;
+	}
+
+	nav ul li{
+		display: block;
+		margin-right: 0;
+	}
+
+	figure {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+

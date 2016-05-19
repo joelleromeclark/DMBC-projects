@@ -1,0 +1,152 @@
+/*css comments*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+/*css reset*/
+*,
+*:before,
+*:after { 
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+body {
+	background: rgba(145,170,157,1);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	}
+
+header {
+	background: url('../img/technology.png') no-repeat !important;
+	background-position: center center;
+	width: 783px;
+	height: 96px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+}
+
+header h1 {
+	position: absolute;
+	top: -9999em;
+	left: -9999em;
+}
+nav a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 19px;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 40px;
+	padding: 16px;
+}
+
+nav a:link,
+nav a:visited {
+	color: rgba(242,135,5,1);
+	
+}
+
+nav a:hover,
+nav a:active {
+	
+}
+
+body figure{
+	margin-bottom: 10px;
+}
+
+main{
+	width: 660px;
+	/*height: 630px;*/
+}
+
+aside{
+	width: 290px;
+	/*height: 630px;*/
+	padding: 10px;
+	line-height: 25px;
+}
+
+aside p{
+	font-size: 12px;
+	line-height: 25px;
+	/*padding: 0px 15px 35px 10px;*/
+}
+
+
+blockquote{
+	font-size: 11px;
+	line-height: 19px;
+	margin-top: 10px;
+	padding-top: 10px;
+
+}
+
+main h2{
+	padding: 35px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+main p{
+	padding: 0px 10px 25px 20px;
+	line-height: 25px;
+
+}
+footer{
+	padding: 20px;
+	font-size: 14px;
+}
+
+.alignright{
+	text-align: right;
+	padding-right: 10px
+
+
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+.centerme{
+	text-align: center;
+}
+
+.box {
+	background-color: rgba(226,240,214,1);
+	border: none;
+	margin-bottom: 10px;
+}
+.box2{
+	background-color: rgba(209,219,189,1);
+	border: none;
+	margin-bottom: 10px;
+}
+.headerbox{
+	padding-top: 10px;
+}
+
+
+
